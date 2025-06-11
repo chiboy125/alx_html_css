@@ -377,4 +377,53 @@ nav a {
   line-height: 1.6;
 }
 
+/* footerr styling */
+
+footer {
+  background-color: #071629;
+  padding: 20px 0 10px;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.footer-logo {
+  width: 160px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #C271FF;
+}
+
+.footer-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
 
