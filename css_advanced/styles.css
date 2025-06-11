@@ -117,46 +117,46 @@ nav a {
   color: #ccc;
 }
 
-
-
-/* .pros-section {
-  background-color: white;
-  color: black;
-  text-align: center;
+.quote {
+  background-color: #C271FF;
+  color: white;
   padding: 80px 20px;
   font-family: 'Helvetica', sans-serif;
 }
 
-.pros-section h2 {
-  font-size: 32px;
-  margin-bottom: 40px;
-}
-
-.instructors {
+.quote-container {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.instructor-card {
-  text-align: center;
-  max-width: 150px;
-}
-
-.instructor-card img {
-  width: 120px;
-  height: 120px;
+.quote-container img {
+  width: 160px;
   border-radius: 50%;
-  margin-bottom: 10px;
 }
 
-.instructor-card h3 {
-  font-size: 16px;
+.quote-text {
+  max-width: 600px;
+}
+
+.quote-text blockquote {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.quote-text h3 {
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
-.instructor-card p {
+.quote-text p {
   font-size: 14px;
-  color: #777;
-} */
+  opacity: 0.9;
+}
+
